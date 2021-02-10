@@ -107,27 +107,27 @@
     {
         "path": "/authors/rafael-carbonell-lazaro/index.html",
         "type": "file",
-        "md5": "99ae799c7086e54ab953015e8f85bcdf"
+        "md5": "18b1a1f4f1f9e77a99506e4f86b29a50"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "e3e61ae8cd6cf9198e6700786f82695a"
+        "md5": "171fc7ebf8d0ac8905c202cc3dd966c0"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "8653da2ddb2e45b214a70d146bd53918"
+        "md5": "fc1aaa1291fec84d0535b7dd0011a89f"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "457e9f94f9ae593182231a98e8b4cc21"
+        "md5": "9789af025028a84c4c9b99016d4a317c"
     },
     {
         "path": "lego-ev3.html",
         "type": "file",
-        "md5": "24b01dedf16a5d63ce97226c249831e6"
+        "md5": "27f335c174bcf715d1c8b8845e5b9c3a"
     },
     {
         "path": "media",
@@ -372,7 +372,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "4b6c2378d31b7d501fa9b55b3e317b2b"
+        "md5": "0f9056f840178b5c6db9176735ae2d9c"
     },
     {
         "path": "sitemap.xsl",
@@ -385,13 +385,23 @@
         "md5": false
     },
     {
+        "path": "tags/control-theory",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/control-theory/index.html",
+        "type": "file",
+        "md5": "71dee39e3a401a4a2b1339ca70f659b6"
+    },
+    {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "909b3f82b47702081a4008581bd3dc2a"
+        "md5": "df999f66625f878e42efc7e9aca164e1"
     },
     {
         "path": "teoria-de-control-2.html",
         "type": "file",
-        "md5": "58f62b97b2220604d65e8fd99dfe852e"
+        "md5": "c7ebb08e50886e68026d5052cfca41c1"
     }
 ]
