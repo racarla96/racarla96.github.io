@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Control &amp; Robotics",
+    "description": "",
+    "home_page_url": "https://racarla96.github.io",
+    "feed_url": "https://racarla96.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Rafael Carbonell Lázaro"
+    },
+    "items": [
+        {
+            "id": "https://racarla96.github.io/teoria-de-control-2.html",
+            "url": "https://racarla96.github.io/teoria-de-control-2.html",
+            "title": "Teoría de control",
+            "summary": " La teoría de control es un campo multidisciplinario de la ingeniería y las matemáticas que estudia el comportamiento de sistemas dinámicos. ",
+            "content_html": "\n  <p>\n    La teoría de control es un campo multidisciplinario de la ingeniería y las matemáticas que estudia el comportamiento de sistemas dinámicos.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://racarla96.github.io/media/posts/2/Control_Map_ver4.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://racarla96.github.io/media/posts/2/responsive/Control_Map_ver4-xs.png 300w ,https://racarla96.github.io/media/posts/2/responsive/Control_Map_ver4-sm.png 480w ,https://racarla96.github.io/media/posts/2/responsive/Control_Map_ver4-md.png 768w ,https://racarla96.github.io/media/posts/2/responsive/Control_Map_ver4-lg.png 1024w ,https://racarla96.github.io/media/posts/2/responsive/Control_Map_ver4-xl.png 1360w ,https://racarla96.github.io/media/posts/2/responsive/Control_Map_ver4-2xl.png 1600w\"  height=\"3878\" width=\"5011\" alt=\"\" />\n      \n    </figure>",
+            "image": "https://racarla96.github.io/media/posts/2/Control_Map_ver4-2.png",
+            "author": {
+                "name": "Rafael Carbonell Lázaro"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-02-10T20:19:19+01:00",
+            "date_modified": "2021-02-10T20:19:19+01:00"
+        }
+    ]
+}
