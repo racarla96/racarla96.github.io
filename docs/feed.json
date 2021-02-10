@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://racarla96.github.io/lego-ev3.html",
+            "url": "https://racarla96.github.io/lego-ev3.html",
+            "title": "LEGO EV3",
+            "summary": " ",
+            "content_html": "\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Rafael Carbonell Lázaro"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-02-10T20:27:02+01:00",
+            "date_modified": "2021-02-10T20:27:02+01:00"
+        },
+        {
             "id": "https://racarla96.github.io/teoria-de-control-2.html",
             "url": "https://racarla96.github.io/teoria-de-control-2.html",
             "title": "Teoría de control",
@@ -22,7 +36,7 @@
             "tags": [
             ],
             "date_published": "2021-02-10T20:19:19+01:00",
-            "date_modified": "2021-02-10T20:19:19+01:00"
+            "date_modified": "2021-02-10T20:28:25+01:00"
         }
     ]
 }
