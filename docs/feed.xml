@@ -3,7 +3,7 @@
     <title>Control &amp; Robotics</title>
     <link href="https://racarla96.github.io/feed.xml" rel="self" />
     <link href="https://racarla96.github.io" />
-    <updated>2021-03-22T17:13:39+01:00</updated>
+    <updated>2021-03-24T23:41:53+01:00</updated>
     <author>
         <name>Rafael Carbonell Lázaro</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Robotics"/>
             <category term="Matemática"/>
 
-        <updated>2021-03-22T17:13:39+01:00</updated>
+        <updated>2021-03-24T23:41:53+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://racarla96.github.io/media/posts/5/Derivada_cero_11b.svg.png" alt="" />
@@ -32,7 +32,7 @@
                 <p>Esta entrada pretende ser el primer escrito informal de este blog sobre robótica y teoría de control. El objectivo es tratar de dar un resumen con aspectos y conceptos de matemáticas aplicados robótica de los cuales hay mucha documentación en inglés, pero muy poca en habla hispana. Recopilar a modo de librería resumida todas las partes a aprender tanto en inglés como en español.</p>
 <p>Partimos del siguiente problema, calcular la derivada de una función dada en el ordenador.</p>
 <p>En algunos problemas de robótica puede ser posible que necesitemos calcular la derivada de una función dada, esta función puede contener funciones no lineales que a la hora de realizar la derivada analítica o calcular la derivada puede ser tedioso o computacionalmente costoso.</p>
-<p><figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\derivada.png" data-is-external-image="true"  alt="" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://racarla96.github.io/media/posts/5/derivada.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://racarla96.github.io/media/posts/5/responsive/derivada-xs.png 300w ,https://racarla96.github.io/media/posts/5/responsive/derivada-sm.png 480w ,https://racarla96.github.io/media/posts/5/responsive/derivada-md.png 768w ,https://racarla96.github.io/media/posts/5/responsive/derivada-lg.png 1024w ,https://racarla96.github.io/media/posts/5/responsive/derivada-xl.png 1360w ,https://racarla96.github.io/media/posts/5/responsive/derivada-2xl.png 1600w"  alt="Image description" width="1262" height="88" /></figure></p>
 <p>Otro concepto que puede ser importante en estos lares, es el concepto de ‘Gradiente’:</p>
 <h6 id="gradiente---wikipedia"><a href="https://es.wikipedia.org/wiki/Gradiente">Gradiente - Wikipedia</a>:</h6>
 <p><code>En matemáticas, el ‘gradiente’ es una generalización multivariable de la derivada.</code></p>
@@ -52,16 +52,15 @@
 </blockquote>
 <p>Las matrices jacobianas son una herramienta muy útil y se utilizan mucho en la robótica y la teoría de control. Básicamente, un jacobiano define la relación dinámica entre dos representaciones diferentes de un sistema.</p>
 <p>Formalmente, un jacobiano es un conjunto de ecuaciones diferenciales parciales:</p>
-<p><figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\jacob1.png" data-is-external-image="true"  alt="" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://racarla96.github.io/media/posts/5/jacob1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://racarla96.github.io/media/posts/5/responsive/jacob1-xs.png 300w ,https://racarla96.github.io/media/posts/5/responsive/jacob1-sm.png 480w ,https://racarla96.github.io/media/posts/5/responsive/jacob1-md.png 768w ,https://racarla96.github.io/media/posts/5/responsive/jacob1-lg.png 1024w ,https://racarla96.github.io/media/posts/5/responsive/jacob1-xl.png 1360w ,https://racarla96.github.io/media/posts/5/responsive/jacob1-2xl.png 1600w"  alt="Image description" width="48" height="22" /></figure></p>
 <p>Con un poco de manipulación podemos obtener un resultado más versátil:</p>
-<p><figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\jacob2.png" data-is-external-image="true"  alt="" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="https://racarla96.github.io/media/posts/5/jacob2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://racarla96.github.io/media/posts/5/responsive/jacob2-xs.png 300w ,https://racarla96.github.io/media/posts/5/responsive/jacob2-sm.png 480w ,https://racarla96.github.io/media/posts/5/responsive/jacob2-md.png 768w ,https://racarla96.github.io/media/posts/5/responsive/jacob2-lg.png 1024w ,https://racarla96.github.io/media/posts/5/responsive/jacob2-xl.png 1360w ,https://racarla96.github.io/media/posts/5/responsive/jacob2-2xl.png 1600w"  alt="Image description" width="162" height="24" /></figure></p>
 <p>o</p>
-<p><figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\jacob3.png" data-is-external-image="true"  alt="" /></figure></p>
-<p>en el cual <figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\x_dot.png" data-is-external-image="true"  alt="" /></figure> y <figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\q_dot.png" data-is-external-image="true"  alt="" /></figure> representan las derivadas temporales de <figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\x.png" data-is-external-image="true"  alt="" /></figure>  y <figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\q.png" data-is-external-image="true"  alt="" /></figure> . </p>
+<p><figure class="post__image"><img loading="lazy" src="https://racarla96.github.io/media/posts/5/jacob3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://racarla96.github.io/media/posts/5/responsive/jacob3-xs.png 300w ,https://racarla96.github.io/media/posts/5/responsive/jacob3-sm.png 480w ,https://racarla96.github.io/media/posts/5/responsive/jacob3-md.png 768w ,https://racarla96.github.io/media/posts/5/responsive/jacob3-lg.png 1024w ,https://racarla96.github.io/media/posts/5/responsive/jacob3-xl.png 1360w ,https://racarla96.github.io/media/posts/5/responsive/jacob3-2xl.png 1600w"  alt="Image description" width="56" height="17" /></figure></p>
+<p>en el cual $$\dot{x}$$ y $$\dot{q}$$ representan las derivadas temporales de $$x$$ y $$q$$. </p>
 <p>Esto nos dice que la velocidad del efector final es igual al jacobiano, <figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\J.png" data-is-external-image="true"  alt="" /></figure>, multiplicado por la velocidad del ángulo de articulación.</p>
 <blockquote>
 </blockquote>
-<p>$$V_{min}$$</p>
 <p>O por ejemplo, si tenemos la posición y orientación de un robot móvil en 2D, es decir, X, Y y θ, para establecer la relación con la velocidad lineal y angular del robot.</p>
 <p>Por tanto encontramos una aplicación para la cual podríamos necesitar calcular la derivada de una función dada que establece relaciones entre magnitudes físicas de un robot para realizar una transformación. Por tanto, el proceso de calcular la derivada de una función según Wikipedia se llama ‘Differentiation’:</p>
 <h6 id="derivative---wikipedia"><a href="https://en.wikipedia.org/wiki/Derivative">Derivative - Wikipedia</a>:</h6>

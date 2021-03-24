@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "71ece111eb9b106eb15fa9951e43b48f"
+        "md5": "47cc583912656ba431f9a36b938fea43"
     },
     {
         "path": "assets",
@@ -107,32 +107,32 @@
     {
         "path": "/authors/rafael-carbonell-lazaro/index.html",
         "type": "file",
-        "md5": "7c609c111f0ad16be7e9dca2ff5e1704"
+        "md5": "28abf7c788f563b8f4af347fab55fc9c"
     },
     {
         "path": "differentiation.html",
         "type": "file",
-        "md5": "fe171a4df7e480df696c97d0b9e79af0"
+        "md5": "54782200c1fc4e0691ea9a25a6e230fe"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "c61d3068ab02245a02bece23917359c3"
+        "md5": "035b68b6e4107332e3b028ef7dc244bf"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "45aceaa47f5b0ec2e486f195775307f5"
+        "md5": "fac247376ee706aad0924f1be3927821"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "0c3817ba0d513b0b9ede28b42b0b2a4b"
+        "md5": "0c5a429857ff4b27ed87d8927258ea77"
     },
     {
         "path": "lego-ev3.html",
         "type": "file",
-        "md5": "8b7956b92f8ac59905b8319041b7c6db"
+        "md5": "b88cd0072dfbce7b228a2dce8d9b3cd4"
     },
     {
         "path": "media",
@@ -335,14 +335,64 @@
         "md5": false
     },
     {
+        "path": "/media/posts/5/derivada.png",
+        "type": "file",
+        "md5": "fcf6d679484dab5a3e83d5a4d3d55216"
+    },
+    {
         "path": "/media/posts/5/Derivada_cero_11b.svg.png",
         "type": "file",
         "md5": "db7675778a8bf785f9f8359e77fc7a39"
     },
     {
+        "path": "/media/posts/5/jacob1.png",
+        "type": "file",
+        "md5": "bf63a653c3b6442fcacd82d96ff620a1"
+    },
+    {
+        "path": "/media/posts/5/jacob2.png",
+        "type": "file",
+        "md5": "641cac95960886e14933b6e409c07a56"
+    },
+    {
+        "path": "/media/posts/5/jacob3.png",
+        "type": "file",
+        "md5": "f1d869c4966d7b42a7eb879cdd46666f"
+    },
+    {
         "path": "media/posts/5/responsive",
         "type": "directory",
         "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/derivada-2xl.png",
+        "type": "file",
+        "md5": "e1d13a500f0dd0f7580b0485b9538794"
+    },
+    {
+        "path": "/media/posts/5/responsive/derivada-lg.png",
+        "type": "file",
+        "md5": "e5c47e2c28014031276cbe3785795ff9"
+    },
+    {
+        "path": "/media/posts/5/responsive/derivada-md.png",
+        "type": "file",
+        "md5": "301c80059f022795329171b3771675e7"
+    },
+    {
+        "path": "/media/posts/5/responsive/derivada-sm.png",
+        "type": "file",
+        "md5": "b67d7203bb85239fda1e4536112be98b"
+    },
+    {
+        "path": "/media/posts/5/responsive/derivada-xl.png",
+        "type": "file",
+        "md5": "e1d13a500f0dd0f7580b0485b9538794"
+    },
+    {
+        "path": "/media/posts/5/responsive/derivada-xs.png",
+        "type": "file",
+        "md5": "ea03e15d7bcf7c82107c5d08d3ea76ff"
     },
     {
         "path": "/media/posts/5/responsive/Derivada_cero_11b.svg-2xl.png",
@@ -373,6 +423,96 @@
         "path": "/media/posts/5/responsive/Derivada_cero_11b.svg-xs.png",
         "type": "file",
         "md5": "08ba279be26dee36ec298f3de27a0a81"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob1-2xl.png",
+        "type": "file",
+        "md5": "0233f27eb06ae8a412df0064d573cefe"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob1-lg.png",
+        "type": "file",
+        "md5": "0233f27eb06ae8a412df0064d573cefe"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob1-md.png",
+        "type": "file",
+        "md5": "0233f27eb06ae8a412df0064d573cefe"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob1-sm.png",
+        "type": "file",
+        "md5": "0233f27eb06ae8a412df0064d573cefe"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob1-xl.png",
+        "type": "file",
+        "md5": "0233f27eb06ae8a412df0064d573cefe"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob1-xs.png",
+        "type": "file",
+        "md5": "0233f27eb06ae8a412df0064d573cefe"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob2-2xl.png",
+        "type": "file",
+        "md5": "a698349cdff5be9d53c59282d499ed06"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob2-lg.png",
+        "type": "file",
+        "md5": "a698349cdff5be9d53c59282d499ed06"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob2-md.png",
+        "type": "file",
+        "md5": "a698349cdff5be9d53c59282d499ed06"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob2-sm.png",
+        "type": "file",
+        "md5": "a698349cdff5be9d53c59282d499ed06"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob2-xl.png",
+        "type": "file",
+        "md5": "a698349cdff5be9d53c59282d499ed06"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob2-xs.png",
+        "type": "file",
+        "md5": "a698349cdff5be9d53c59282d499ed06"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob3-2xl.png",
+        "type": "file",
+        "md5": "ead85fb72903a2afd28effc86cbb56d0"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob3-lg.png",
+        "type": "file",
+        "md5": "ead85fb72903a2afd28effc86cbb56d0"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob3-md.png",
+        "type": "file",
+        "md5": "ead85fb72903a2afd28effc86cbb56d0"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob3-sm.png",
+        "type": "file",
+        "md5": "ead85fb72903a2afd28effc86cbb56d0"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob3-xl.png",
+        "type": "file",
+        "md5": "ead85fb72903a2afd28effc86cbb56d0"
+    },
+    {
+        "path": "/media/posts/5/responsive/jacob3-xs.png",
+        "type": "file",
+        "md5": "ead85fb72903a2afd28effc86cbb56d0"
     },
     {
         "path": "media/tags",
@@ -462,7 +602,7 @@
     {
         "path": "quantitative-feedback-theory.html",
         "type": "file",
-        "md5": "84092f8b6e84ec41ea1351117a1ceaa1"
+        "md5": "48cdfe8789ef260803ef1e958b68ee8c"
     },
     {
         "path": "robots.txt",
@@ -472,12 +612,12 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "feccc3ad45ad490b8676c3ca1e6c7e4b"
+        "md5": "91a868315e45ac63c1e20faaccd83c41"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "bfeee63b026f12f883cd27b932876e3c"
+        "md5": "475dac5601243a244abfe6752ca12999"
     },
     {
         "path": "sitemap.xsl",
@@ -497,12 +637,12 @@
     {
         "path": "/tags/control-theory/index.html",
         "type": "file",
-        "md5": "c44c01cdb8bf7f7d99e32ac47cf797be"
+        "md5": "6dc435fc973f38588700b252f7ecd4e8"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "2e76da0d89c46b5f3f517f059b5d3b3b"
+        "md5": "2789425ff39ae1113cb17678ab77be82"
     },
     {
         "path": "tags/matematica",
@@ -512,7 +652,7 @@
     {
         "path": "/tags/matematica/index.html",
         "type": "file",
-        "md5": "0e860f5e30f9afae7d2563f07ef8c791"
+        "md5": "0b6923e23905af6f5d4d48d372c2a445"
     },
     {
         "path": "tags/robotics",
@@ -522,11 +662,11 @@
     {
         "path": "/tags/robotics/index.html",
         "type": "file",
-        "md5": "6b02ce728678084786ad663d9ccfd498"
+        "md5": "5faa355c5093f98942eeedc8cdc338f2"
     },
     {
         "path": "teoria-de-control-2.html",
         "type": "file",
-        "md5": "9ab4412893a827fb72bc10c3afef479b"
+        "md5": "7d7eea6d05ed8d6d99c598b8428e7604"
     }
 ]
