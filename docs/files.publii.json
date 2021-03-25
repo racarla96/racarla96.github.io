@@ -112,17 +112,17 @@
     {
         "path": "differentiation.html",
         "type": "file",
-        "md5": "67e004261d28230900c1c5497460a7fa"
+        "md5": "fb0b06695c30e0ab45c184ae24b92d05"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "2fe11895554bc3084564b7986fcc8102"
+        "md5": "beca79b41e06b3b132f36f4f1bb3b79a"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "a04ce4bcef75b1b19ba3e0e5b69f440a"
+        "md5": "fcf0590dd877922e733e9f8c3bef375e"
     },
     {
         "path": "index.html",
@@ -617,7 +617,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "7e38e1db6840d95edaf797bdd03c6344"
+        "md5": "5c222379f54781ec14ff37207bf7e950"
     },
     {
         "path": "sitemap.xsl",

@@ -3,7 +3,7 @@
     <title>Control &amp; Robotics</title>
     <link href="https://racarla96.github.io/feed.xml" rel="self" />
     <link href="https://racarla96.github.io" />
-    <updated>2021-03-25T09:04:04+01:00</updated>
+    <updated>2021-03-25T09:08:04+01:00</updated>
     <author>
         <name>Rafael Carbonell Lázaro</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Robotics"/>
             <category term="Matemática"/>
 
-        <updated>2021-03-25T09:04:04+01:00</updated>
+        <updated>2021-03-25T09:08:04+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://racarla96.github.io/media/posts/5/Derivada_cero_11b.svg.png" alt="" />
@@ -48,9 +48,8 @@
 <p>También se recomienda ver los conceptos de matriz Hessiana, que se puede entender con la derivada de un matriz jacobiana o como la segunda derivada de una función multivariable.</p>
 <h6 id="enlazando-conceptos">Enlazando conceptos</h6>
 <h6 id="robot-control-part-2-jacobians-velocity-and-force"><a href="https://studywolf.wordpress.com/2013/09/02/robot-control-jacobians-velocity-and-force/">ROBOT CONTROL PART 2: JACOBIANS, VELOCITY, AND FORCE</a></h6>
-<blockquote>
-</blockquote>
-<p>Las matrices jacobianas son una herramienta muy útil y se utilizan mucho en la robótica y la teoría de control. Básicamente, un jacobiano define la relación dinámica entre dos representaciones diferentes de un sistema.</p>
+<p>``
+Las matrices jacobianas son una herramienta muy útil y se utilizan mucho en la robótica y la teoría de control. Básicamente, un jacobiano define la relación dinámica entre dos representaciones diferentes de un sistema.</p>
 <p>Formalmente, un jacobiano es un conjunto de ecuaciones diferenciales parciales:</p>
 <p><figure class="post__image"><img loading="lazy" src="media/posts/5/jacob1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="media/posts/5/responsive/jacob1-xs.png 300w ,media/posts/5/responsive/jacob1-sm.png 480w ,media/posts/5/responsive/jacob1-md.png 768w ,media/posts/5/responsive/jacob1-lg.png 1024w ,media/posts/5/responsive/jacob1-xl.png 1360w ,media/posts/5/responsive/jacob1-2xl.png 1600w"  alt="Image description" width="48" height="22" /></figure></p>
 <p>Con un poco de manipulación podemos obtener un resultado más versátil:</p>
@@ -58,9 +57,8 @@
 <p>o</p>
 <p><figure class="post__image"><img loading="lazy" src="media/posts/5/jacob3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="media/posts/5/responsive/jacob3-xs.png 300w ,media/posts/5/responsive/jacob3-sm.png 480w ,media/posts/5/responsive/jacob3-md.png 768w ,media/posts/5/responsive/jacob3-lg.png 1024w ,media/posts/5/responsive/jacob3-xl.png 1360w ,media/posts/5/responsive/jacob3-2xl.png 1600w"  alt="Image description" width="56" height="17" /></figure></p>
 <p>en el cual \(\dot{x}\) y \(\dot{q}\) representan las derivadas temporales de \(x\) y \(q\). </p>
-<p>Esto nos dice que la velocidad del efector final es igual al jacobiano, \(J\), multiplicado por la velocidad del ángulo de articulación.</p>
-<blockquote>
-</blockquote>
+<p>Esto nos dice que la velocidad del efector final es igual al jacobiano, \(J\), multiplicado por la velocidad del ángulo de articulación.
+``</p>
 <p>O por ejemplo, si tenemos la posición y orientación de un robot móvil en 2D, es decir, X, Y y θ, para establecer la relación con la velocidad lineal y angular del robot.</p>
 <p>Por tanto encontramos una aplicación para la cual podríamos necesitar calcular la derivada de una función dada que establece relaciones entre magnitudes físicas de un robot para realizar una transformación. Por tanto, el proceso de calcular la derivada de una función según Wikipedia se llama ‘Differentiation’:</p>
 <h6 id="derivative---wikipedia"><a href="https://en.wikipedia.org/wiki/Derivative">Derivative - Wikipedia</a>:</h6>
