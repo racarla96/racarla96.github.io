@@ -3,7 +3,7 @@
     <title>Control &amp; Robotics</title>
     <link href="https://racarla96.github.io/feed.xml" rel="self" />
     <link href="https://racarla96.github.io" />
-    <updated>2021-03-25T08:59:27+01:00</updated>
+    <updated>2021-03-25T09:04:04+01:00</updated>
     <author>
         <name>Rafael Carbonell Lázaro</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Robotics"/>
             <category term="Matemática"/>
 
-        <updated>2021-03-25T08:59:27+01:00</updated>
+        <updated>2021-03-25T09:04:04+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://racarla96.github.io/media/posts/5/Derivada_cero_11b.svg.png" alt="" />
@@ -57,8 +57,8 @@
 <p><figure class="post__image"><img loading="lazy" src="media/posts/5/jacob2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="media/posts/5/responsive/jacob2-xs.png 300w ,media/posts/5/responsive/jacob2-sm.png 480w ,media/posts/5/responsive/jacob2-md.png 768w ,media/posts/5/responsive/jacob2-lg.png 1024w ,media/posts/5/responsive/jacob2-xl.png 1360w ,media/posts/5/responsive/jacob2-2xl.png 1600w"  alt="Image description" width="162" height="24" /></figure></p>
 <p>o</p>
 <p><figure class="post__image"><img loading="lazy" src="media/posts/5/jacob3.png" sizes="(max-width: 48em) 100vw, 768px" srcset="media/posts/5/responsive/jacob3-xs.png 300w ,media/posts/5/responsive/jacob3-sm.png 480w ,media/posts/5/responsive/jacob3-md.png 768w ,media/posts/5/responsive/jacob3-lg.png 1024w ,media/posts/5/responsive/jacob3-xl.png 1360w ,media/posts/5/responsive/jacob3-2xl.png 1600w"  alt="Image description" width="56" height="17" /></figure></p>
-<p>en el cual (\dot{x}) y (\dot{q}) representan las derivadas temporales de (x) y (q). </p>
-<p>Esto nos dice que la velocidad del efector final es igual al jacobiano, (J), multiplicado por la velocidad del ángulo de articulación.</p>
+<p>en el cual \(\dot{x}\) y \(\dot{q}\) representan las derivadas temporales de \(x\) y \(q\). </p>
+<p>Esto nos dice que la velocidad del efector final es igual al jacobiano, \(J\), multiplicado por la velocidad del ángulo de articulación.</p>
 <blockquote>
 </blockquote>
 <p>O por ejemplo, si tenemos la posición y orientación de un robot móvil en 2D, es decir, X, Y y θ, para establecer la relación con la velocidad lineal y angular del robot.</p>
