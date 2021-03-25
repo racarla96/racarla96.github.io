@@ -112,17 +112,17 @@
     {
         "path": "differentiation.html",
         "type": "file",
-        "md5": "3865aa27034d68759bb07a7d0cf2e7e2"
+        "md5": "03c7406dcb923ad86d4ca1cd64cb538f"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "33d1fb13779c4d22f2a5fd223ce2d21d"
+        "md5": "7036a7d9203bee6e740dc654166cc1dd"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "a6d82790ecef96734eb346cadb2232e9"
+        "md5": "065f505e2ada54bd0967b6b2512d9fa9"
     },
     {
         "path": "index.html",
@@ -345,6 +345,11 @@
         "md5": "db7675778a8bf785f9f8359e77fc7a39"
     },
     {
+        "path": "/media/posts/5/Diff.png",
+        "type": "file",
+        "md5": "595458695228ceb5b1631e2e0cf958b1"
+    },
+    {
         "path": "/media/posts/5/jacob1.png",
         "type": "file",
         "md5": "bf63a653c3b6442fcacd82d96ff620a1"
@@ -423,6 +428,36 @@
         "path": "/media/posts/5/responsive/Derivada_cero_11b.svg-xs.png",
         "type": "file",
         "md5": "08ba279be26dee36ec298f3de27a0a81"
+    },
+    {
+        "path": "/media/posts/5/responsive/Diff-2xl.png",
+        "type": "file",
+        "md5": "fdf1f281e113a8d81c23eee432bf3d24"
+    },
+    {
+        "path": "/media/posts/5/responsive/Diff-lg.png",
+        "type": "file",
+        "md5": "fdf1f281e113a8d81c23eee432bf3d24"
+    },
+    {
+        "path": "/media/posts/5/responsive/Diff-md.png",
+        "type": "file",
+        "md5": "fdf1f281e113a8d81c23eee432bf3d24"
+    },
+    {
+        "path": "/media/posts/5/responsive/Diff-sm.png",
+        "type": "file",
+        "md5": "fdf1f281e113a8d81c23eee432bf3d24"
+    },
+    {
+        "path": "/media/posts/5/responsive/Diff-xl.png",
+        "type": "file",
+        "md5": "fdf1f281e113a8d81c23eee432bf3d24"
+    },
+    {
+        "path": "/media/posts/5/responsive/Diff-xs.png",
+        "type": "file",
+        "md5": "2eeae5e0d0c0e6f3dd73740e0b220c86"
     },
     {
         "path": "/media/posts/5/responsive/jacob1-2xl.png",
@@ -617,7 +652,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "e6792345d211e22c0621d6e1fc0f90ce"
+        "md5": "671072afa07f85614db67caab2810132"
     },
     {
         "path": "sitemap.xsl",

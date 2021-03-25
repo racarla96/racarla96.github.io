@@ -3,7 +3,7 @@
     <title>Control &amp; Robotics</title>
     <link href="https://racarla96.github.io/feed.xml" rel="self" />
     <link href="https://racarla96.github.io" />
-    <updated>2021-03-25T09:10:51+01:00</updated>
+    <updated>2021-03-25T09:13:52+01:00</updated>
     <author>
         <name>Rafael Carbonell Lázaro</name>
     </author>
@@ -19,7 +19,7 @@
             <category term="Robotics"/>
             <category term="Matemática"/>
 
-        <updated>2021-03-25T09:10:51+01:00</updated>
+        <updated>2021-03-25T09:13:52+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://racarla96.github.io/media/posts/5/Derivada_cero_11b.svg.png" alt="" />
@@ -67,7 +67,7 @@
 <p><code>&#39;Differentiation&#39; es la acción de calcular una derivada.</code></p>
 <p>En el ordenador, podemos encontrar diferentes formas de calcular al derivada de una función, llamemos a esto formas o tipos de ‘Differentiation’.</p>
 <h6 id="tipos-de-differentiation">Tipos de Differentiation</h6>
-<p><figure class="post__image"><img loading="lazy" src="C:\Users\Laboratorio\Documents\Git\racarla96.github.io\additional\Differentiation\img\Diff.png" data-is-external-image="true"  alt="" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="media/posts/5/Diff.png" sizes="(max-width: 48em) 100vw, 768px" srcset="media/posts/5/responsive/Diff-xs.png 300w ,media/posts/5/responsive/Diff-sm.png 480w ,media/posts/5/responsive/Diff-md.png 768w ,media/posts/5/responsive/Diff-lg.png 1024w ,media/posts/5/responsive/Diff-xl.png 1360w ,media/posts/5/responsive/Diff-2xl.png 1600w"  alt="Image description" width="411" height="231" /></figure></p>
 <p>Os recomiendo ver el video de <a href="https://www.youtube.com/watch?v=wG_nF1awSSY">What is Automatic Differentiation?</a> en el cual explica por encima los distintos tipos y porque usar la automatic differentiation (AD) frente al resto.</p>
 <p>Si quisieramos usar en cualquier plataforma, existe una librería de C++ muy útil para este proposito es <a href="https://autodiff.github.io/">autodiff</a> además con compatiblidad con la librería <a href="https://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen</a> para la gestión de matrices. </p>
 <p>También destacar el trabajo de Alexey Radul que tiene una magnifica entrada de introducción a AD. <a href="https://alexey.radul.name/ideas/2013/introduction-to-automatic-differentiation/">Introduction to AUTOMATIC DIFFERENTIATION By Alexey Radul</a></p>
