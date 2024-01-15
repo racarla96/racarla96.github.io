@@ -1,9 +1,9 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_name: Sistemas y Róbotica
+site_description: 'Web personal para la difusión de contenido diverso de sistemas y robótica'
+site_author: 'Rafael Carbonell Lázaro'
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+repo_name: 'racarla96/racarla96.github.io'
+repo_url: 'https://github.com/racarla96/racarla96.github.io'
 nav:
     - Home: index.md
     - Proyectos: 
