@@ -12,3 +12,9 @@ nav:
         - Batería: rbcar/bateria.md
 theme:
   name: 'material'
+  features:
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
