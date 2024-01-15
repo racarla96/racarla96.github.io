@@ -7,7 +7,8 @@ repo_url: 'https://github.com/mhausenblas/mkdocs-template'
 nav:
     - Home: index.md
     - Proyectos: 
-      - RBCAR AI2: rbcar/index.md
+      - RBCAR AI2: 
+        - rbcar/index.md
         - Batería: rbcar/bateria.md
 theme:
   name: 'material'
