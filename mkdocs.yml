@@ -10,6 +10,12 @@ nav:
       - RBCAR AI2: 
         - rbcar/index.md
         - Batería: rbcar/bateria.md
+        - Gamepad: rbcar/gamepad.md
+    - Sensores:
+      - sensores/index.md
+      - Posicionamiento en interiores:
+        - sensores/pos_int/index.md
+        - Marvelmind: sensores/pos_int/mavermind.md
 theme:
   name: 'material'
   features:
