@@ -16,6 +16,9 @@ nav:
       - Posicionamiento en interiores:
         - sensores/pos_int/index.md
         - Marvelmind: sensores/pos_int/mavermind.md
+    - Comunicaciones:
+      - comunicacion/index.md
+      - UART: comunicacion/uart.md 
 theme:
   name: 'material'
   features:
