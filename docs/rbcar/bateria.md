@@ -50,11 +50,14 @@
 
 ## Mantenimiento
 
+### Último mantenimiento: 
+
 ### Componentes necesarios
 - Agua destilada
 - Jeringuilla
 - Gafas de protección
 - Guantes no permeables (por ejemplo, nitrilo, como en la imagen inferior)
+- Linterna (para mirar el nivel)
 
 ![](img/bateria/bateria-mantenimiento-agua-destilada.jpg)
 ![](img/bateria/bateria-mantenimiento-jeringuilla.jpg)
@@ -73,3 +76,5 @@ Que cubra el agua destilada un poco por encima de las placas de la batería,
 no llenar hasta arriba, con que las placas no estén al aire es suficiente, ayudarse de la jeringuilla para el rellanado.
 
 Precaución con el fuego porque las baterías liberan hidrogeno durante le carga. Evitar a toda costa que haya elementos que generen ignición. Sin chispas ni llamas. 
+
+[Video de Youtube con el procedimiento](https://www.youtube.com/watch?v=gYsozEP8XMg)
