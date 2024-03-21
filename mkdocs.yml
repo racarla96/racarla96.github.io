@@ -19,6 +19,8 @@ nav:
     - Comunicaciones:
       - comunicacion/index.md
       - UART: comunicacion/uart.md
+    - Prototipos:
+      - Quanser: quanser/index.md
     - Material Educativo:
       - material_educativo/index.md
 theme:
