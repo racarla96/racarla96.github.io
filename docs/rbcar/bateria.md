@@ -7,18 +7,18 @@
 
 ### Configuración de las baterías en serie
 
-Anteriormente tenía 8 baterías:
+#### Anteriormente tenía 8 baterías:
 - Baterías Trojan T-125 6V 240 Ah
 
 ![](img/bateria/bateria-configuración-bateria-vieja.jpg)
 
-Actualmente tiene 8 baterías:
+#### Actualmente tiene 8 baterías:
 - Baterías Trojan T-105 6V 225 Ah
 
 ![](img/bateria/bateria-configuración-bateria-nueva.png)
 ![](img/bateria/bateria-configuración-etiqueta-bateria-nueva.jpg)
 
-Justificación de compra:
+#### Justificación de compra:
 - Compatibilidad con la anteriores baterías
 - Facilidad en la gestión y compra
 

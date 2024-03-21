@@ -1,0 +1,18 @@
+{
+    //-------- Pandoc Option Configuration --------
+
+    // pandoc .pdf output option template that you would like to use
+    "pandoc.pdfOptString": "-t beamer",
+
+    // pandoc .docx output option template that you would like to use
+    //"pandoc.docxOptString": "",
+
+    // pandoc .html output option template that you would like to use
+    "pandoc.htmlOptString": "-s -t s5",
+
+    // path to the pandoc executable. By default gets from PATH variable
+    //"pandoc.executable": "",
+
+    // enable running pandoc in a docker container
+    //"pandoc.useDocker": "true",
+}

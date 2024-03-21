@@ -18,7 +18,9 @@ nav:
         - Marvelmind: sensores/pos_int/mavermind.md
     - Comunicaciones:
       - comunicacion/index.md
-      - UART: comunicacion/uart.md 
+      - UART: comunicacion/uart.md
+    - Material Educativo:
+      - material_educativo/index.md
 theme:
   name: 'material'
   features:
