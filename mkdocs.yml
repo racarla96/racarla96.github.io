@@ -20,7 +20,9 @@ nav:
       - comunicacion/index.md
       - UART: comunicacion/uart.md
     - Prototipos:
-      - Quanser: quanser/index.md
+      - prototipos/index.md
+      - Quanser: prototipos/quanser/index.md
+      - LEGO: prototipos/lego/index.md
     - Material Educativo:
       - material_educativo/index.md
 theme:
