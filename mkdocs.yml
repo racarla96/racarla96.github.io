@@ -7,10 +7,10 @@ repo_url: 'https://github.com/racarla96/racarla96.github.io'
 nav:
     - Home: index.md
     - Proyectos: 
-      - RBCAR AI2: 
-        - rbcar/index.md
-        - Batería: rbcar/bateria.md
-        - Gamepad: rbcar/gamepad.md
+      - Caddy AI2: 
+        - caddy_ai2/index.md
+        - Batería: caddy_ai2/bateria.md
+        - Gamepad: caddy_ai2/gamepad.md
     - Sensores:
       - sensores/index.md
       - Posicionamiento en interiores:
