@@ -1,5 +1,10 @@
 # Batería
 
+## Mantenimientos
+
+- 02/04/2024
+
+### Último mantenimiento: 02/04/2024
 
 ## Configuración
 
@@ -47,10 +52,6 @@
 ![](img/bateria/bateria-carga-cargador-conector-macho-vista-2.jpg)
 #### Conector hembra del cargador
 ![](img/bateria/bateria-carga-conectar-hembra-coche.jpg)
-
-## Mantenimiento
-
-### Último mantenimiento: 
 
 ### Componentes necesarios
 - Agua destilada
