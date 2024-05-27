@@ -21,8 +21,8 @@ nav:
       - UART: comunicacion/uart.md
     - Prototipos:
       - prototipos/index.md
-      - Quanser: prototipos/quanser/index.md
       - LEGO: prototipos/lego/index.md
+      - Quanser: prototipos/quanser/index.md
     - Material Educativo:
       - material_educativo/index.md
 theme:
@@ -33,3 +33,5 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+extra_css:
+  - stylesheets/extra.css
