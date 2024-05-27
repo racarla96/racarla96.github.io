@@ -73,7 +73,8 @@ Debemos seguir el esquemático sencillo de la imagen de abajo, y ya tendremos nu
 
 <img src="img\conector-din-4-pines-macho-motor-wiring.jpg" alt="conector-din-4-pines-macho-motor-wiring.jpg" style="width:auto;height:200px;">
 
-MUY IMPORTANTE: El prototipo de Quanser de 3 DOF Hover tiene la toma de tierra compartida (GND), y como los motores sólo giran en un sentido hay que tener cuidado de como se conecta el motor y el driver que se le proporciona la polaridad adecuada para su correcto funcionamiento, sino este provocará un cortocircuito. Se debe buscar el positivo del conector DIN con el positivo del motor con el positivo la salida cuando se aplica el PWM al driver, con un multimetro es un momento.
+!!! danger "Peligro - MUY IMPORTANTE"
+   : El prototipo de Quanser de 3 DOF Hover tiene la toma de tierra compartida (GND), y como los motores sólo giran en un sentido hay que tener cuidado de como se conecta el motor y el driver que se le proporciona la polaridad adecuada para su correcto funcionamiento, sino este provocará un cortocircuito. Se debe buscar el positivo del conector DIN con el positivo del motor con el positivo la salida cuando se aplica el PWM al driver, con un multimetro es un momento.
 
 ## Conclusión
 
