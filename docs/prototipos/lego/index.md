@@ -4,8 +4,8 @@
 
 NOTA: La primera vez que iniciemos el brick, nos pedirá que presionemos el botón del centro para continuar, puede ser se reinicie solo o tengamos que quitarle la batería.
 
-Aquí puedes descargar la imagen ya preparada para quemar en la SD: https://mega.nz/file/VW8FFTYB#5yEJ2ZTeHwKv5_rbyt10Wcyl_gSJvv8q2AhG3_GTggQ
-
+Aquí puedes descargar la imagen ya preparada para quemar en la SD: 
+- https://mega.nz/file/VW8FFTYB#5yEJ2ZTeHwKv5_rbyt10Wcyl_gSJvv8q2AhG3_GTggQ
 
 
 Luego, para poder utilizar ROS debemos cambiar el ROS_MASTER_URI por la dirección apropiada donde se este ejecutando el ROS Core.
