@@ -22,7 +22,9 @@ nav:
     - Prototipos:
       - prototipos/index.md
       - LEGO: prototipos/lego/index.md
-      - Quanser: prototipos/quanser/index.md
+      - Quanser: 
+        - prototipos/quanser/index.md
+        - Adaptación cableado: prototipos/quanser/adaptacion.md
     - Material Educativo:
       - material_educativo/index.md
 theme:
