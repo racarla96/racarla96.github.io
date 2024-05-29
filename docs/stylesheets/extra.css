@@ -6,3 +6,12 @@ img {
     width:auto;
     height:200px;
 }
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+    padding: 5px;
+}
