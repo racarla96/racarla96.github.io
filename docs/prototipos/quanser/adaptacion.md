@@ -14,34 +14,34 @@ Ambas maquetas están compuestas por encoders de cuadratura y motores de corrien
 
 Para poder leer el encoder, una opción, es acoplarnos al conector que utilizaba Quanser, un conector DIN 5 pines:
 
-<img src="img\adaptacion\conector-din-5-pines-macho.jpg" style="width:auto;height:200px;">
+<img src="img\conector-din-5-pines-macho.jpg" style="width:auto;height:200px;">
 
 Por tanto, nuestro objetivo es contruir un cable compatible con el encoder que podamos leer con Arduino.
 
 Es por ello que primero miraremos que clase de encoders monta. Los encoders que utilizan las maquetas son los HEDS-9X00 que requieren seguir el siguiente esquema:
 
-<img src="img\adaptacion\encoder_heds_9100_schematic.png" style="width:auto;height:200px;">
+<img src="img\encoder_heds_9100_schematic.png" style="width:auto;height:200px;">
 
 Este esquema es útil cuando el Arduino puede leer señales a 5V. Como vemos utilizaremos unas resistencias entorno a las 3 KΩ. Pero si tenemos un Arduino que funciona a 3.3 V tenemos que realizar una pequeña modificación, y es poner la resistencia de pull-up a 3.3 V:
 
-<img src="img\adaptacion\schematic_3_3_V.png" style="width:auto;height:200px;">
+<img src="img\schematic_3_3_V.png" style="width:auto;height:200px;">
 
 Para montar este esquema con los cables originales de quanser tenemos que tener precaución porque el color del cable (primera imagen) no coincide con los colores que se ven del siguiente conector (el resto de imágenes) (en estos conectores el canal index no está conectado):
 
-<img src="img\adaptacion\cable_y_pcb_in_progress.jpg"  style="width:auto;height:200px;">
-<img src="img\adaptacion\conector_din_5_vista_1.jpg" style="width:auto;height:200px;">
-<img src="img\adaptacion\conector_din_5_vista_2.jpg" style="width:auto;height:200px;">
-<img src="img\adaptacion\conector_encoder.jpg"  style="width:auto;height:200px;">
+<img src="img\cable_y_pcb_in_progress.jpg"  style="width:auto;height:200px;">
+<img src="img\conector_din_5_vista_1.jpg" style="width:auto;height:200px;">
+<img src="img\conector_din_5_vista_2.jpg" style="width:auto;height:200px;">
+<img src="img\conector_encoder.jpg"  style="width:auto;height:200px;">
 
 Este cable sigue el siguiente patrón, para el cable que he construido, he seguido más o menos el mismo patrón de color que el conector externo, de ahí el color entre paréntesis:
 
-<img src="img\adaptacion\tabla_conexión.png" style="width:auto;height:200px;">
-<img src="img\adaptacion\cable_zoom.jpg" style="width:auto;height:200px;">
-<img src="img\adaptacion\salida_conector.jpg" style="width:auto;height:200px;">
+<img src="img\tabla_conexión.png" style="width:auto;height:200px;">
+<img src="img\cable_zoom.jpg" style="width:auto;height:200px;">
+<img src="img\salida_conector.jpg" style="width:auto;height:200px;">
 
 Si por otra parte compramos los conectores de internet y queremos construir nuestro propio cable tenemos el siguiente esquema, añadiendo la parte del esquemático con las resistencias de pull-up:
 
-<img src="img\adaptacion\conector_din_5_vista_detallada.jpg" style="width:auto;height:200px;">
+<img src="img\conector_din_5_vista_detallada.jpg" style="width:auto;height:200px;">
 
 ## Adaptar los motores
 
@@ -55,23 +55,23 @@ Mi recomendación es usar una fuente de PC que nos proporciona estos 12 V, y una
 
 Una vez tenemos elegida la fuente, pasamos a los drivers, debemos elegir un driver capaz de soportar esta intensidad, la suerte que tenemos hoy en dia es que por poco dinero podemos tener un driver que supla estas características, yo compré estos drivers por Aliexpress que para este propósito cumplen su papel.
 
-<img src="img\adaptacion\foto_driver_dc.png"  style="width:auto;height:200px;">
+<img src="img\foto_driver_dc.png"  style="width:auto;height:200px;">
 
 Por ejemplo, este driver tiene salida para dos motores de corriente continua con una intensidad de 8 A nominal por canal de motor, y es bastante sencillo de usar, su uso depende de cada driver.
 
-<img src="img\adaptacion\driver_dc_logic.png"  style="width:auto;height:200px;">
+<img src="img\driver_dc_logic.png"  style="width:auto;height:200px;">
 
 En este caso, viendo la tabla lógica nos podemos hacer una idea del funcionamiento del driver. 
 
-<img src="img\adaptacion\driver_dc_function.png"  style="width:auto;height:200px;">
+<img src="img\driver_dc_function.png"  style="width:auto;height:200px;">
 
 Para probar este driver o cualquier otro sólo nos queda saber la guinda del pastel y es saber el diagrama del conector con el prototipo. Siguiendo la lógica de la opción elegida con el encoder, es  acoplarnos al conector que utilizaba Quanser para los motores, un conector DIN 4 pines:
 
-<img src="img\adaptacion\conector-din-4-pines-macho.jpg" style="width:auto;height:200px;">
+<img src="img\conector-din-4-pines-macho.jpg" style="width:auto;height:200px;">
 
 Debemos seguir el esquemático sencillo de la imagen de abajo, y ya tendremos nuestro cable listo. El orden de los polos nos da un poco igual porque siempre los podemos conectar al revés en los bornes o cambiar el sentido del giro mediante código.
 
-<img src="img\adaptacion\conector-din-4-pines-macho-motor-wiring.jpg" style="width:auto;height:200px;">
+<img src="img\conector-din-4-pines-macho-motor-wiring.jpg" style="width:auto;height:200px;">
 
 !!! danger "Peligro - MUY IMPORTANTE"
 
@@ -81,9 +81,9 @@ Debemos seguir el esquemático sencillo de la imagen de abajo, y ya tendremos nu
 
 <img src="img\three_dof_hover_quanser.jpg" style="width:auto;height:200px;">
 
-<img src="img\adaptacion\conector-din-4-pines-macho-motor-wiring-v2.jpg" style="width:auto;height:200px;">
+<img src="img\conector-din-4-pines-macho-motor-wiring-v2.jpg" style="width:auto;height:200px;">
 
-<img src="img\adaptacion\driver_dc_product_size.png" style="width:auto;height:200px;"> <img src="img\adaptacion\half-bridge.png" style="width:auto;height:200px;">
+<img src="img\driver_dc_product_size.png" style="width:auto;height:200px;"> <img src="img\half-bridge.png" style="width:auto;height:200px;">
 
 
 
