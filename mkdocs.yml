@@ -10,23 +10,31 @@ nav:
       - Caddy AI2: 
         - caddy_ai2/index.md
         - Batería: caddy_ai2/bateria.md
-        - Gamepad: caddy_ai2/gamepad.md
-    - Sensores:
-      - sensores/index.md
-      - Posicionamiento en interiores:
-        - sensores/pos_int/index.md
-        - Marvelmind: sensores/pos_int/mavermind.md
-    - Comunicaciones:
-      - comunicacion/index.md
-      - UART: comunicacion/uart.md
+#        - Gamepad: caddy_ai2/gamepad.md
+#    - Sensores:
+#      - sensores/index.md
+#      - Posicionamiento en interiores:
+#        - sensores/pos_int/index.md
+#        - Marvelmind: sensores/pos_int/mavermind.md
+#    - Comunicaciones:
+#      - comunicacion/index.md
+#      - UART: comunicacion/uart.md
     - Prototipos:
       - prototipos/index.md
-      - LEGO: prototipos/lego/index.md
+      - Simulink Arduino: 
+        - prototipos/simulink-arduino/index.md
+      - Mecanum: 
+        - prototipos/mecanum/index.md
+      - LEGO: 
+        - prototipos/lego/index.md
       - Quanser: 
         - prototipos/quanser/index.md
         - Adaptación cableado: prototipos/quanser/adaptacion.md
+        - Simulink Arduino: prototipos/quanser/simulink-arduino.md
     - Material Educativo:
       - material_educativo/index.md
+    - CV: 
+      - curriculum/index.md
 theme:
   name: 'material'
   features:
