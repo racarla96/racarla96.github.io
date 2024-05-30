@@ -69,23 +69,50 @@ Para probar este driver o cualquier otro sólo nos queda saber la guinda del pas
 
 <img src="img\conector-din-4-pines-macho.jpg" style="width:auto;height:200px;">
 
-Debemos seguir el esquemático sencillo de la imagen de abajo, y ya tendremos nuestro cable listo. El orden de los polos nos da un poco igual porque siempre los podemos conectar al revés en los bornes o cambiar el sentido del giro mediante código.
+Debemos seguir el esquemático sencillo de la imagen de abajo, y ya tendremos nuestro cable listo. El orden de los polos NO da igual, depende del prototipo, si un prototipo, el motor sólo gira en un sentido, es posible que el otro polo del motor este conectado a GND como El prototipo de Quanser de 3 DOF Hover. En cambio para el prototipo de péndulo giratorio invertido nos da igual que polo conectar porque el motor necesitamos que gire en ambos sentidos, y el driver del motor DC nos permita aplicar dos PWMs, siempre excluyendo uno PWM del otro al aplicarse, es decir, dejar uno a 0 o en su defecto, hay drivers que esto ya lo contemplan y pueden tener un pin DIR para señalar la dirección de giro con un pin digital.
 
 <img src="img\conector-din-4-pines-macho-motor-wiring.jpg" style="width:auto;height:200px;">
 
 !!! danger "Peligro - MUY IMPORTANTE"
 
-    El prototipo de Quanser de 3 DOF Hover tiene la toma de tierra compartida (GND), y como los motores sólo giran en un sentido hay que tener cuidado de como se conecta el motor y el driver que se le proporciona la polaridad adecuada para su correcto funcionamiento, sino este provocará un cortocircuito. Se debe buscar el positivo del conector DIN con el positivo del motor con el positivo la salida cuando se aplica el PWM al driver, con un multimetro es un momento.
+    El prototipo de Quanser de 3 DOF Hover tiene la toma de tierra compartida (GND), y como los motores sólo giran en un sentido hay que tener cuidado de como se conecta el motor y el driver que se le proporciona la polaridad adecuada para su correcto funcionamiento, sino este provocará un cortocircuito. Se debe buscar el positivo del conector DIN con el positivo del motor con el positivo la salida cuando se aplica el PWM al driver, con un multimetro es un momento. El otro polo del motor debe estar conectado a GND de la alimentación.
 
 ### Apuntes para el proceso de Quanser de 3 DOF Hover
 
+Para el prototipo de Quanser de 3 DOF Hover, como bien dice la nota, tiene la toma de tierra compartida.
+
 <img src="img\three_dof_hover_quanser.jpg" style="width:auto;height:200px;">
 
-<img src="img\conector-din-4-pines-macho-motor-wiring-v2.jpg" style="width:auto;height:200px;">
+Así pues, hay que tener cuidado con el cableado del motor, en este caso yo he optado por seguir este esquema para el conector, dejo los colores rojo y negro, aunque en mi cable sean de color marrón y blanco.
 
-<img src="img\driver_dc_product_size.png" style="width:auto;height:200px;"> <img src="img\half-bridge.png" style="width:auto;height:200px;">
+<div class="row">
+  <div class="column">
+    <img src="img\conector-din-4-pines-macho-motor-wiring-v2.jpg" style="width:auto;height:200px;">
+  </div>
+  <div class="column">
+    <img src="img\cableado_colores.jpg" style="width:auto;height:200px;">
+  </div>
+</div>
 
+Como podemos ver en las siguientes imágenes, tenemos el driver, tanto los transistores como el esquema que representan, en este caso con un "único" driver de DC para controlar dos motores, el cuál presenta 2 puentes en H completos, es decir, 4 medio puentes en H, podemos usar estos 4 medio puentes para controlar los cuatro motores del aparato, ya que solo necesitamos que funcione en un sentido de giro.
 
+<div class="row">
+  <div class="column">
+<img src="img\driver_dc_product_size.png" style="width:auto;height:200px;"> 
+  <div class="column">
+<img src="img\half-bridge.png" style="width:auto;height:200px;">
+  </div>
+</div>
+
+Por último, comentar esta imagen, aquí podemos ver todos los motores conectados con el cableado blanco mientras los marrones están conectados a la toma de tierra.
+
+<div class="column">
+<img src="img\driver_cableado.png" style="width:auto;height:200px;">
+</div>
+
+!!! warning "Advertencia - EXPERIENCIA"
+
+    No he acabado de tener buena experiencia con estos drivers porque el disipador no ajusta del todo, cuando les das caña a los motores, los transistores sufren, se calienten, incluso se han llegado a quemar algunos, no acabo de recomendarlos, asegurar el pad térmico para evitar sobrecalentamientos.
 
 ## Conclusión
 
