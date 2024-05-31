@@ -107,7 +107,7 @@ Como podemos ver en las siguientes imágenes, tenemos el driver, tanto los trans
 
 Por último, comentar esta imagen, aquí podemos ver todos los motores conectados con el cableado blanco mientras los marrones están conectados a la toma de tierra.
 
-<img src="img\driver_cableado.png" style="width:auto;height:200px;">
+<img src="img\driver_cableado.jpg" style="width:auto;height:200px;">
 
 !!! warning "Advertencia - EXPERIENCIA"
 
