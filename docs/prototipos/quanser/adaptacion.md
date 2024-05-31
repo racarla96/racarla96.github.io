@@ -106,13 +106,11 @@ Como podemos ver en las siguientes imágenes, tenemos el driver, tanto los trans
 
 Por último, comentar esta imagen, aquí podemos ver todos los motores conectados con el cableado blanco mientras los marrones están conectados a la toma de tierra.
 
-<div class="column">
 <img src="img\driver_cableado.png" style="width:auto;height:200px;">
-</div>
 
 !!! warning "Advertencia - EXPERIENCIA"
 
-    No he acabado de tener buena experiencia con estos drivers porque el disipador no ajusta del todo, cuando les das caña a los motores, los transistores sufren, se calienten, incluso se han llegado a quemar algunos, no acabo de recomendarlos, asegurar el pad térmico para evitar sobrecalentamientos.
+    No he acabado de tener buena experiencia con estos drivers porque el disipador no ajusta del todo bien, cuando les das caña a los motores, los transistores sufren, se calienten, incluso se han llegado a quemar algunos, no acabo de recomendarlos, asegurar el pad térmico para evitar sobrecalentamientos, incluso cambiar el que viene por defecto.
 
 ## Conclusión
 
