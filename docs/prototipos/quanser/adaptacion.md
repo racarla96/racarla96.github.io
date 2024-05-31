@@ -98,9 +98,10 @@ Como podemos ver en las siguientes imágenes, tenemos el driver, tanto los trans
 
 <div class="row">
   <div class="column">
-<img src="img\driver_dc_product_size.png" style="width:auto;height:200px;"> 
+    <img src="img\driver_dc_product_size.png" style="width:auto;height:200px;"> 
+  </div>
   <div class="column">
-<img src="img\half-bridge.png" style="width:auto;height:200px;">
+    <img src="img\half-bridge.png" style="width:auto;height:200px;">
   </div>
 </div>
 
