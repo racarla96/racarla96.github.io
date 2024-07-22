@@ -3,6 +3,7 @@
 ## Mantenimientos
 
 - 02/04/2024
+- 18/07/2024 (Comprobación, no fue necesario rellenar)
 
 ### Último mantenimiento: 02/04/2024
 
