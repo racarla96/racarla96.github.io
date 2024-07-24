@@ -1,0 +1,1445 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Web personal para la difusión de contenido diverso de sistemas y robótica">
+      
+      
+        <meta name="author" content="Rafael Carbonell Lázaro">
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../simulink-arduino/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Adaptación cableado - Sistemas y Róbotica</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#adaptacion-del-cableado-para-el-uso-de-las-maquetas-de-quanser-con-microcontroladores-como-arduino-stm32-esp32-o-incluso-sbcs-como-raspberry-pi-lattepanda-alpha-beaglebone-etc" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Sistemas y Róbotica" class="md-header__button md-logo" aria-label="Sistemas y Róbotica" data-md-component="logo">
+      
+  <img src="../../../assets/White_Robot_Operating_System_logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sistemas y Róbotica
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Adaptación cableado
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/racarla96/racarla96.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    racarla96/racarla96.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../caddy_ai2/" class="md-tabs__link">
+          
+  
+    
+  
+  Proyectos
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  Prototipos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../ros2/" class="md-tabs__link">
+          
+  
+    
+  
+  ROS 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../material_educativo/" class="md-tabs__link">
+          
+  
+    
+  
+  Material Educativo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../curriculum/" class="md-tabs__link">
+          
+  
+    
+  
+  CV
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Sistemas y Róbotica" class="md-nav__button md-logo" aria-label="Sistemas y Róbotica" data-md-component="logo">
+      
+  <img src="../../../assets/White_Robot_Operating_System_logo.svg" alt="logo">
+
+    </a>
+    Sistemas y Róbotica
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/racarla96/racarla96.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    racarla96/racarla96.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Proyectos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Proyectos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../caddy_ai2/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Caddy AI2
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Caddy AI2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../caddy_ai2/bateria/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Batería
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Prototipos
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Prototipos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../simulink-arduino/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Simulink Arduino
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Simulink Arduino
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../mecanum/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Mecanum
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Mecanum
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../lego/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    LEGO
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            LEGO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Quanser
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_5" id="__nav_3_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Quanser
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Adaptación cableado
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Adaptación cableado
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adaptar-los-encoders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adaptar los encoders
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adaptar-los-motores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adaptar los motores
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adaptar los motores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apuntes-para-el-proceso-de-quanser-de-3-dof-hover" class="md-nav__link">
+    <span class="md-ellipsis">
+      Apuntes para el proceso de Quanser de 3 DOF Hover
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusión
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conclusión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mas-sobre-encoder-de-cuadratura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Más sobre encoder de cuadratura
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enlaces-de-referencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enlaces de referencia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../simulink-arduino/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulink Arduino
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../ros2/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    ROS 2
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            ROS 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ros2/tutoriales-externos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tutoriales externos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../material_educativo/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Material Educativo
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Material Educativo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../curriculum/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    CV
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            CV
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#adaptar-los-encoders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adaptar los encoders
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adaptar-los-motores" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adaptar los motores
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adaptar los motores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apuntes-para-el-proceso-de-quanser-de-3-dof-hover" class="md-nav__link">
+    <span class="md-ellipsis">
+      Apuntes para el proceso de Quanser de 3 DOF Hover
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusión
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conclusión">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mas-sobre-encoder-de-cuadratura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Más sobre encoder de cuadratura
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enlaces-de-referencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enlaces de referencia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="adaptacion-del-cableado-para-el-uso-de-las-maquetas-de-quanser-con-microcontroladores-como-arduino-stm32-esp32-o-incluso-sbcs-como-raspberry-pi-lattepanda-alpha-beaglebone-etc">Adaptación del cableado para el uso de las maquetas de Quanser con microcontroladores como Arduino, STM32, ESP32 o incluso SBCs como Raspberry Pi, LattePanda Alpha, BeagleBone, etc...</h1>
+<p><em>El experimento 3 DOF Hover proporciona un banco de pruebas económico para comprender y desarrollar leyes de control para la dinámica de vuelo y el control de vehículos con despegue vertical.</em> [1]</p>
+<p><em>El módulo de péndulo giratorio invertido se conecta a la unidad base del servo giratorio, ampliando los temas de mecatrónica y controles que se pueden enseñar. El módulo de péndulo desafía a los estudiantes no solo a modelar y controlar un péndulo, sino también a aprender sobre sistemas de control híbridos ajustando un sistema de control oscilante. Además de enseñar conceptos de control intermedio, el péndulo rotatorio invertido se puede utilizar para la investigación en diversas áreas, incluido el control difuso.</em> [2]</p>
+<p><img src="img\three_dof_hover_quanser.jpg"  style="width:auto;height:200px;"></p>
+<p><img src="img\rotary_inverted_pendulum_quanser.jpg"  style="width:auto;height:200px;"></p>
+<p>Ambas maquetas están compuestas por encoders de cuadratura y motores de corriente continua, estos nos permiten obtener la posición y actuar sobre la maqueta.</p>
+<h2 id="adaptar-los-encoders">Adaptar los encoders</h2>
+<p>Para poder leer el encoder, una opción, es acoplarnos al conector que utilizaba Quanser, un conector DIN 5 pines:</p>
+<p><img src="img\conector-din-5-pines-macho.jpg" style="width:auto;height:200px;"></p>
+<p>Por tanto, nuestro objetivo es contruir un cable compatible con el encoder que podamos leer con Arduino.</p>
+<p>Es por ello que primero miraremos que clase de encoders monta. Los encoders que utilizan las maquetas son los HEDS-9X00 que requieren seguir el siguiente esquema:</p>
+<p><img src="img\encoder_heds_9100_schematic.png" style="width:auto;height:200px;"></p>
+<p>Este esquema es útil cuando el Arduino puede leer señales a 5V. Como vemos utilizaremos unas resistencias entorno a las 3 KΩ. Pero si tenemos un Arduino que funciona a 3.3 V tenemos que realizar una pequeña modificación, y es poner la resistencia de pull-up a 3.3 V:</p>
+<p><img src="img\schematic_3_3_V.png" style="width:auto;height:200px;"></p>
+<p>Para montar este esquema con los cables originales de quanser tenemos que tener precaución porque el color del cable (primera imagen) no coincide con los colores que se ven del siguiente conector (el resto de imágenes) (en estos conectores el canal index no está conectado):</p>
+<p><img src="img\cable_y_pcb_in_progress.jpg"  style="width:auto;height:200px;">
+<img src="img\conector_din_5_vista_1.jpg" style="width:auto;height:200px;">
+<img src="img\conector_din_5_vista_2.jpg" style="width:auto;height:200px;">
+<img src="img\conector_encoder.jpg"  style="width:auto;height:200px;"></p>
+<p>Este cable sigue el siguiente patrón, para el cable que he construido, he seguido más o menos el mismo patrón de color que el conector externo, de ahí el color entre paréntesis:</p>
+<p><img src="img\tabla_conexión.png" style="width:auto;height:200px;">
+<img src="img\cable_zoom.jpg" style="width:auto;height:200px;">
+<img src="img\salida_conector.jpg" style="width:auto;height:200px;"></p>
+<p>Si por otra parte compramos los conectores de internet y queremos construir nuestro propio cable tenemos el siguiente esquema, añadiendo la parte del esquemático con las resistencias de pull-up:</p>
+<p><img src="img\conector_din_5_vista_detallada.jpg" style="width:auto;height:200px;"></p>
+<h2 id="adaptar-los-motores">Adaptar los motores</h2>
+<p>Para la adaptación de los motores el proceso es mucho más "sencillo", ya que sólo debemos tener acceso a la información del datasheet del motor y un multimetro, con la intención de saber la intensidad consumida por el motor.</p>
+<p>Por ejemplo, con un fuente de alimentación regulable, que suelen contar un display para visualizar la intensidad consumida, conectamos motor directamente y anotamos la intensidad, personalmente con el voltaje a 12 Voltios cualquier de estos dos prototipos funciona.</p>
+<p>Para el prototipo del 3 DOF Hover se necesita entorno a 3 Amperios por motor, 12 A en total, mientras que para el prototipo del péndulo con 1 A es suficiente en nominal, aunque si bien es cierto que cuando hay cambios con una dinámica bastante agresiva, se necesita una fuente con algo de margen.</p>
+<p>Mi recomendación es usar una fuente de PC que nos proporciona estos 12 V, y una amperaje muy decente para este propósito, cualquier fuente de un PC de sobremesa actual o algo antiguo puede tener o superar los 180 Watts, más de los 12 A necesarios para los prototipos.</p>
+<p>Una vez tenemos elegida la fuente, pasamos a los drivers, debemos elegir un driver capaz de soportar esta intensidad, la suerte que tenemos hoy en dia es que por poco dinero podemos tener un driver que supla estas características, yo compré estos drivers por Aliexpress que para este propósito cumplen su papel.</p>
+<p><img src="img\foto_driver_dc.png"  style="width:auto;height:200px;"></p>
+<p>Por ejemplo, este driver tiene salida para dos motores de corriente continua con una intensidad de 8 A nominal por canal de motor, y es bastante sencillo de usar, su uso depende de cada driver.</p>
+<p><img src="img\driver_dc_logic.png"  style="width:auto;height:200px;"></p>
+<p>En este caso, viendo la tabla lógica nos podemos hacer una idea del funcionamiento del driver. </p>
+<p><img src="img\driver_dc_function.png"  style="width:auto;height:200px;"></p>
+<p>Para probar este driver o cualquier otro sólo nos queda saber la guinda del pastel y es saber el diagrama del conector con el prototipo. Siguiendo la lógica de la opción elegida con el encoder, es  acoplarnos al conector que utilizaba Quanser para los motores, un conector DIN 4 pines:</p>
+<p><img src="img\conector-din-4-pines-macho.jpg" style="width:auto;height:200px;"></p>
+<p>Debemos seguir el esquemático sencillo de la imagen de abajo, y ya tendremos nuestro cable listo. El orden de los polos NO da igual, depende del prototipo, si un prototipo, el motor sólo gira en un sentido, es posible que el otro polo del motor este conectado a GND como El prototipo de Quanser de 3 DOF Hover. En cambio para el prototipo de péndulo giratorio invertido nos da igual que polo conectar porque el motor necesitamos que gire en ambos sentidos, y el driver del motor DC nos permita aplicar dos PWMs, siempre excluyendo uno PWM del otro al aplicarse, es decir, dejar uno a 0 o en su defecto, hay drivers que esto ya lo contemplan y pueden tener un pin DIR para señalar la dirección de giro con un pin digital.</p>
+<p><img src="img\conector-din-4-pines-macho-motor-wiring.jpg" style="width:auto;height:200px;"></p>
+<div class="admonition danger">
+<p class="admonition-title">Peligro - MUY IMPORTANTE</p>
+<p>El prototipo de Quanser de 3 DOF Hover tiene la toma de tierra compartida (GND), y como los motores sólo giran en un sentido hay que tener cuidado de como se conecta el motor y el driver que se le proporciona la polaridad adecuada para su correcto funcionamiento, sino este provocará un cortocircuito. Se debe buscar el positivo del conector DIN con el positivo del motor con el positivo la salida cuando se aplica el PWM al driver, con un multimetro es un momento. El otro polo del motor debe estar conectado a GND de la alimentación.</p>
+</div>
+<h3 id="apuntes-para-el-proceso-de-quanser-de-3-dof-hover">Apuntes para el proceso de Quanser de 3 DOF Hover</h3>
+<p>Para el prototipo de Quanser de 3 DOF Hover, como bien dice la nota, tiene la toma de tierra compartida.</p>
+<p><img src="img\three_dof_hover_quanser.jpg" style="width:auto;height:200px;"></p>
+<p>Así pues, hay que tener cuidado con el cableado del motor, en este caso yo he optado por seguir este esquema para el conector, dejo los colores rojo y negro, aunque en mi cable sean de color marrón y blanco.</p>
+<div class="row">
+  <div class="column">
+    <img src="img\conector-din-4-pines-macho-motor-wiring-v2.jpg" style="width:auto;height:200px;">
+  </div>
+  <div class="column">
+    <img src="img\cableado_colores.jpg" style="width:auto;height:200px;">
+  </div>
+</div>
+
+<p>Como podemos ver en las siguientes imágenes, tenemos el driver, tanto los transistores como el esquema que representan, en este caso con un "único" driver de DC para controlar dos motores, el cuál presenta 2 puentes en H completos, es decir, 4 medio puentes en H, podemos usar estos 4 medio puentes para controlar los cuatro motores del aparato, ya que solo necesitamos que funcione en un sentido de giro.</p>
+<div class="row">
+  <div class="column">
+    <img src="img\driver_dc_product_size.png" style="width:auto;height:200px;"> 
+  </div>
+  <div class="column">
+    <img src="img\half-bridge.png" style="width:auto;height:200px;">
+  </div>
+</div>
+
+<p>Por último, comentar esta imagen, aquí podemos ver todos los motores conectados con el cableado blanco mientras los marrones están conectados a la toma de tierra.</p>
+<p><img src="img\driver_cableado.jpg" style="width:auto;height:200px;"></p>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia - EXPERIENCIA</p>
+<p>No he acabado de tener buena experiencia con estos drivers porque el disipador no ajusta del todo bien, cuando les das caña a los motores, los transistores sufren, se calienten, incluso se han llegado a quemar algunos, no acabo de recomendarlos, asegurar el pad térmico para evitar sobrecalentamientos, incluso cambiar el que viene por defecto.</p>
+</div>
+<h2 id="conclusion">Conclusión</h2>
+<p>La adaptación de las maquetas de Quanser para microcontroladores como Arduino, STM32, ESP32, o sistemas basados en Linux como Raspberry Pi, LattePanda Alpha, BeagleBone, entre otros, abre nuevas oportunidades en educación e investigación en mecatrónica y control de sistemas. Este proceso implica ajustar los encoders HEDS-9X00 y los motores de corriente continua para su compatibilidad con microcontroladores y fuentes de alimentación comunes. Esta adaptación simplificada, junto con la disponibilidad de componentes estándar y recursos detallados, ofrece una plataforma versátil y accesible para experimentación y aprendizaje, promoviendo el desarrollo de habilidades en control y diseño de sistemas dinámicos.</p>
+<h3 id="mas-sobre-encoder-de-cuadratura">Más sobre encoder de cuadratura</h3>
+<ul>
+<li><a href="https://makeatronics.blogspot.com/2013/02/efficiently-reading-quadrature-with.html">https://makeatronics.blogspot.com/2013/02/efficiently-reading-quadrature-with.html</a></li>
+<li><a href="https://electronics.stackexchange.com/questions/360637/quadrature-encoder-most-efficient-software-implementation">https://electronics.stackexchange.com/questions/360637/quadrature-encoder-most-efficient-software-implementation</a></li>
+</ul>
+<h2 id="enlaces-de-referencia">Enlaces de referencia</h2>
+<ul>
+<li>[1] https://www.quanser.com/products/3-dof-hover/</li>
+<li>[2] https://www.quanser.com/products/rotary-inverted-pendulum/</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
