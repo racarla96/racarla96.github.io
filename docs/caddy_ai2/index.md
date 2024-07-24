@@ -12,9 +12,7 @@ La intención es actualizar el coche adaptando las piezas de hardware y software
 
 ### Partimos de la base de software:
 
-Por una parte, tenemos , incluyen otros paquetes del AI2:
-
-Por otra parte, tenemos los repositorios de código de Robotnik y otros extraídos de un backup de código del workspace del robot:
+Tenemos los repositorios de código de Robotnik y otros extraídos de un backup de código del workspace del robot:
 
 - https://github.com/CO3-UPV/rbcar_sim
 - https://github.com/CO3-UPV/rbcar_common
@@ -24,4 +22,5 @@ Por otra parte, tenemos los repositorios de código de Robotnik y otros extraíd
 De estos paquetes, se han eliminado las ramas de ROS posteriores a indigo-devel, porque corresponden al nuevo modelo de Robotnik, conservando la rama de indigo-devel.
 
 Cambios en el chasis:
+
 - Se han añadido tres pasamuros a la caja para pasar cableado a su interior de forma sencilla: [Customizable threaded grommet by makmonty - Thingiverse](https://www.thingiverse.com/thing:4372453)

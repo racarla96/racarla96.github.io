@@ -31,6 +31,9 @@ nav:
         - prototipos/quanser/index.md
         - Adaptación cableado: prototipos/quanser/adaptacion.md
         - Simulink Arduino: prototipos/quanser/simulink-arduino.md
+    - ROS 2:
+      - ros2/index.md
+      - Tutoriales externos: ros2/tutoriales-externos.md
     - Material Educativo:
       - material_educativo/index.md
     - CV: 
