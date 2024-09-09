@@ -21,7 +21,8 @@
 #### Actualmente tiene 8 baterías:
 - Baterías Trojan T-105 6V 225 Ah
 
-![](img/bateria/bateria-configuración-bateria-nueva.png) ![](img/bateria/bateria-configuración-etiqueta-bateria-nueva.jpg)
+| ![](img/bateria/bateria-configuración-bateria-nueva.png) | ![](img/bateria/bateria-configuración-etiqueta-bateria-nueva.jpg) |
+|---|---|
 
 #### Justificación de compra:
 - Compatibilidad con la anteriores baterías
@@ -43,13 +44,17 @@
 
 ### Cargador
 
-![](img/bateria/bateria-carga-cargador-frontal.jpg)
-![](img/bateria/bateria-carga-cargador-trasera.jpg)
+| ![](img/bateria/bateria-carga-cargador-frontal.jpg) | ![](img/bateria/bateria-carga-cargador-trasera.jpg) |
+|---|---|
 
 ### Conectores
 
 #### Conector macho del cargador
-![](img/bateria/bateria-carga-cargador-conector-macho-vista-1.jpg) ![](img/bateria/bateria-carga-cargador-conector-macho-vista-2.jpg)
+
+| ![](img/bateria/bateria-carga-cargador-conector-macho-vista-1.jpg) |  ![](img/bateria/bateria-carga-cargador-conector-macho-vista-2.jpg) |
+|---|---|
+
+
 
 #### Conector hembra del cargador
 ![](img/bateria/bateria-carga-conectar-hembra-coche.jpg)
@@ -63,13 +68,17 @@
 - Guantes no permeables (por ejemplo, nitrilo, como en la imagen inferior)
 - Linterna (para mirar el nivel)
 
-![](img/bateria/bateria-mantenimiento-agua-destilada.jpg) ![](img/bateria/bateria-mantenimiento-jeringuilla.jpg)
-![](img/bateria/bateria-mantenimiento-gafas-proteccion.jpg) ![](img/bateria/bateria-mantenimiento-guantes.jpg)
+| ![](img/bateria/bateria-mantenimiento-agua-destilada.jpg) | ![](img/bateria/bateria-mantenimiento-jeringuilla.jpg) |
+|---|---|
 
+| ![](img/bateria/bateria-mantenimiento-gafas-proteccion.jpg) | ![](img/bateria/bateria-mantenimiento-guantes.jpg) |
+|---|---|
 
+ 
 ### Frecuencia de rellenado cada 2/3 meses
 
-![](img/bateria/bateria-mantenimiento-infamable.jpg) ![](img/bateria/bateria-mantenimiento-corrosivo.jpg)
+| ![](img/bateria/bateria-mantenimiento-infamable.jpg) | ![](img/bateria/bateria-mantenimiento-corrosivo.jpg) |
+|---|---|
 
 ### Procedimiento
 Ponerse los guantes y gafas. Tener cuidado con una posibles salpicaduras. 
