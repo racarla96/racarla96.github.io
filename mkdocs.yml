@@ -10,6 +10,10 @@ nav:
       - Caddy AI2: 
         - caddy_ai2/index.md
         - Batería: caddy_ai2/bateria.md
+        - Sensores: 
+          - caddy_ai2/sensores/index.md
+          - SBG IG-500N GPS Aided AHRS: caddy_ai2/sensores/ahrs.md
+
   #      - Gamepad: caddy_ai2/gamepad.md
   #  - Sensores:
   #    - sensores/index.md
