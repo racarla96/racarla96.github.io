@@ -2,10 +2,8 @@
 
 ## Mantenimientos
 
-- 02/04/2024
-- 18/07/2024 (Comprobación (*)) 
-
-((*)no fue necesario rellenar la batería de agua destilada)
+- 02/04/2024 (Mantenimiento realizado)
+- 18/07/2024 (Comprobación - mantenimiento no requerido) 
 
 ### Último mantenimiento: 02/04/2024
 
@@ -56,6 +54,8 @@
 #### Conector hembra del cargador
 ![](img/bateria/bateria-carga-conectar-hembra-coche.jpg)
 
+## ¿Cómo hacer el mantenimiento de la batería?
+
 ### Componentes necesarios
 - Agua destilada
 - Jeringuilla
@@ -79,6 +79,6 @@ Ponerse los guantes y gafas. Tener cuidado con una posibles salpicaduras.
 Que cubra el agua destilada un poco por encima de las placas de la batería, 
 no llenar hasta arriba, con que las placas no estén al aire es suficiente, ayudarse de la jeringuilla para el rellanado.
 
-Precaución con el fuego porque las baterías liberan hidrogeno durante le carga. Evitar a toda costa que haya elementos que generen ignición. Sin chispas ni llamas. 
+Precaución con el fuego porque las baterías liberan hidrógeno durante le carga. Evitar a toda costa que haya elementos que generen ignición. Sin chispas ni llamas. 
 
 [Video de Youtube con el procedimiento](https://www.youtube.com/watch?v=gYsozEP8XMg)
