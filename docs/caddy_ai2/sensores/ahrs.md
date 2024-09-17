@@ -15,7 +15,7 @@ Características principales:
 4. **Datos de Salida**:
    - **Orientación 3D** (Ángulos de Euler, Matriz o Cuaternión)
    - **Posición y Velocidad 3D**
-   - **Medición de ¿Heave?**
+   - **Medición de Heave - Usado en aplicaciones marítimas**
    - **Datos de Sensores Calibrados** (Aceleración, Velocidad de Rotación, Campo Magnético, Temperatura)
    - **Ángulo Delta**
    - **Datos Brutos del Sensor y GPS**
@@ -25,5 +25,7 @@ Características principales:
 
 Estas características hacen que el IG-500N sea una solución ideal para aplicaciones que requieren un seguimiento preciso de actitud, rumbo y posición en condiciones dinámicas y de alta velocidad.
 
-## Repositorio de código de ROS 2 para el uso del sensor
-https://github.com/racarla96/ros2_caddy_ai2_sensors_SBG_IG-500N.git
+## Repositorio de código de ROS 2 Humble para el uso del sensor
+
+[https://github.com/racarla96/ros2_caddy_ai2_sensors_SBG_IG-500N.git](https://github.com/racarla96/ros2_caddy_ai2_sensors_SBG_IG-500N.git)
+

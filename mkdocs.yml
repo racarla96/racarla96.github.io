@@ -10,6 +10,7 @@ nav:
       - Caddy AI2: 
         - caddy_ai2/index.md
         - Batería: caddy_ai2/bateria.md
+        - Glosario de términos: caddy_ai2/glosario.md
         - Sensores: 
           - caddy_ai2/sensores/index.md
           - SBG IG-500N GPS Aided AHRS: caddy_ai2/sensores/ahrs.md
