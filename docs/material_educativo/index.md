@@ -27,16 +27,16 @@
 
 ## Bloc
 
-??? info "Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras (UPV)"
+??? info "Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras (UPV - Universitat Politècnica de València)"
 
     Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras, Depto. Ingeniería de Sistemas y Automática (DISA), Universitat Politècnica de València (UPV). 
-    - https://personales.upv.es/asala/DocenciaOnline/index.html 
-    - https://personales.upv.es/asala/DocenciaOnline/Cursos/Apuntes.html
+  
+    [Web - Índice](https://personales.upv.es/asala/DocenciaOnline/index.html)
+    [Web - Apuntes](https://personales.upv.es/asala/DocenciaOnline/Cursos/Apuntes.html)
 
-    En esta entrada podrás encontrar un material rico y variado en Castellano sobre la teoría de control.
+    En esta entrada podrás encontrar un material muy rico y variado en Castellano sobre la teoría de control.
 
-??? info "La carretera como forma de vida By David Llopis Castelló (Universitat Politècnica de València)" 
-
+??? info "La carretera como forma de vida By David Llopis Castelló (UPV - Universitat Politècnica de València)" 
     https://dallocas.blogs.upv.es/
 
     En este bloc podrás encontrar aspectos diversos sobre la conducción en general, desde entradas referentes a los coches autónomos como el mantenimiento de carreteras.
