@@ -1,5 +1,7 @@
 # Caddy AI2
 
+## Proyecto
+
 Este es el modelo antiguo del RBCar de Robotnik. Este fue adquirido ya hace unos años por el AI2. El grupo de trabajo CO3 ahora ha heredado este coche. Internamente hemos decidido llamarle Caddy AI2.
 
 ![Rbcar AI2](img/rbcar-ai2.jpeg)
