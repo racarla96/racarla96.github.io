@@ -41,6 +41,7 @@ nav:
       - Tutoriales externos: ros2/tutoriales-externos.md
     - Material Educativo:
       - material_educativo/index.md
+      - Desafíos en la Caracterización del Ruido de Sensores en Filtros de Kalman: material_educativo/kalman_noise.md
     # - CV: 
     #   - curriculum/index.md
 theme:

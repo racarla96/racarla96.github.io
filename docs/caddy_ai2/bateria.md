@@ -4,6 +4,7 @@
 
 - 02/04/2024 (Mantenimiento realizado)
 - 18/07/2024 (Comprobación - mantenimiento no requerido) 
+- 26/09/2024 (Comprobación - mantenimiento no requerido) 
 
 ### Último mantenimiento: 02/04/2024
 

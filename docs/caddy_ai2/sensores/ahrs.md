@@ -29,3 +29,13 @@ Estas características hacen que el IG-500N sea una solución ideal para aplicac
 
 [https://github.com/racarla96/ros2_caddy_ai2_sensors_SBG_IG-500N.git](https://github.com/racarla96/ros2_caddy_ai2_sensors_SBG_IG-500N.git)
 
+## Características
+
+SBG IG-500N-G4A2P1-B
+   - G4 -> 300 º/s
+   - A2 -> +-2g
+   - P1 -> RS-232 (USB)
+   - B -> Box version, no sync
+
+[Github - Manual](https://github.com/racarla96/ros2_caddy_ai2_sensors_SBG_IG-500N/blob/main/docs_official/IG500N_User_Manual_79402165.pdf)
+
