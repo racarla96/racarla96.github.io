@@ -5,7 +5,9 @@
 
 ??? info "Optimal Control and Reinforcement Learning (CMU 16-745) Spring 2024 by Prof. Zac Manchester."
   
-    [Youtube - Optimal Control (CMU 16-745) 2024 by Prof. Zac Manchester](https://youtu.be/Kj88Nory8ec?si=JU_qB1Aj_pqWQH1w), [Youtube - Recitations by Kevin Tracy](https://youtu.be/97JZi5ztc3c?si=IyFwk7nXSawswAbh) y [Website - 16-745: Optimal Control & Reinforcement Learning](https://optimalcontrol.ri.cmu.edu/). 
+    [Youtube - Optimal Control (CMU 16-745) 2024 by Prof. Zac Manchester](https://youtu.be/Kj88Nory8ec?si=JU_qB1Aj_pqWQH1w)
+    [Youtube - Recitations by Kevin Tracy](https://youtu.be/97JZi5ztc3c?si=IyFwk7nXSawswAbh)
+    [Website - 16-745: Optimal Control & Reinforcement Learning](https://optimalcontrol.ri.cmu.edu/). 
 
     *Curso con una lista de 16 videos de 1 hora y algo relacionando el control óptimo y la robótica en Inglés. junto a sus recitations, que ayudan a entender la teoría con la práctica matemática. También disponen de código de ejemplo en github (Julia).*
 
@@ -18,6 +20,46 @@
 ??? info "Sistemas dinámicos II (introducción a Lyapunov y conceptos asociados necesarios) por Manual Mera."
 
     [Youtube](https://www.youtube.com/watch?v=O5NIqCsCUHE&list=PLFBmvhTwb0B4T3OLuIGbhCSDICD7yJDHa)
+
+??? info "Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras (UPV - Universitat Politècnica de València)"
+
+    Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras, Depto. Ingeniería de Sistemas y Automática (DISA), Universitat Politècnica de València (UPV). 
+  
+    [Web - Índice](https://personales.upv.es/asala/DocenciaOnline/index.html)
+    [Web - Apuntes](https://personales.upv.es/asala/DocenciaOnline/Cursos/Apuntes.html)
+    [Canal de Youtube](https://www.youtube.com/@asalacontrol)
+
+    En esta entrada podrás encontrar un material muy rico y variado en Castellano sobre la teoría de control.
+
+#### Vehicle dynamics
+    
+??? info "Vehicle Dynamics & Control - Prof. Georg Schildbach, University of Luebeck"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=Cg0L_HZYxP4&list=PLW3FM5Kyc2_4PGkumkAHNXzWtgHhaYe1d)
+
+??? info "Vehicle Dynamics - Vatsal Jain"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=powT52Isd-Q&list=PLEzzQIuBvBkoqJOP2IL3Elt6Ra8j4zFL3)
+
+??? info "Self-Driving Cars - Andreas Geiger - Tübingen Machine Learning"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=_q4WUxgwDeg&list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr)
+
+??? info "Road Vehicle Dynamics - DrEstes"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=W7--Fn5QpIQ&list=PLY3QcHOW5la-A086X0dyg-sKNUgEju233)
+
+??? info "MATLAB and Simulink Racing Lounge - MATLAB"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=YzCEyr2F3Rw&list=PLn8PRpmsu08p693oV_qfJOWh8yBdrCZV0)
+
+??? info "Improving your Racecar Development: MATLAB and Simulink Racing Lounge - MATLAB"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=YzCEyr2F3Rw&list=PLn8PRpmsu08rkM6q6NxZdew0DfqK3WnX9)
+
+??? info "F1TENTH - xLAB for Safe Autonomous Systems"
+
+    [Lista de Youtube](https://www.youtube.com/watch?v=v6w_zVHL8WQ&list=PL7rtKJAz_mPdFDJtufKmqfWRNu55s_LMc)
 
 ### Seminarios
 
@@ -38,15 +80,6 @@
     Actualmente es el presidente del Comité Técnico 6.4 de IFAC Safeprocess desde 2020 y fue el vicepresidente en el periodo 2014-2017. Ha sido el presidente de la conferencia IEEE sobre sistemas de control y tolerancia a fallas (Systol 2016 y Systol 2021) y el presidente de IPC de IFAC Safeprocess 2018.
 
 ## Blog
-
-??? info "Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras (UPV - Universitat Politècnica de València)"
-
-    Modelado, Identificación y Control Multivariable por Antonio Sala Piqueras, Depto. Ingeniería de Sistemas y Automática (DISA), Universitat Politècnica de València (UPV). 
-  
-    [Web - Índice](https://personales.upv.es/asala/DocenciaOnline/index.html)
-    [Web - Apuntes](https://personales.upv.es/asala/DocenciaOnline/Cursos/Apuntes.html)
-
-    En esta entrada podrás encontrar un material muy rico y variado en Castellano sobre la teoría de control.
 
 ??? info "La carretera como forma de vida By David Llopis Castelló (UPV - Universitat Politècnica de València)" 
     https://dallocas.blogs.upv.es/
